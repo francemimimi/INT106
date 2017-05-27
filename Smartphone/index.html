@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Smartphone by TheStupidPerson</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+
+        <style>
+            html{
+                position: relative;
+                display:both;
+                clear:both;
+                
+            }
+            table,th,td {
+                border : 1px ;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            .container{
+                clear:both;
+                width:950px;
+                padding:0px;
+                height: 100vh;
+
+            }
+            .picture{
+                float:center;
+                padding-top: 5px ;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                background-color: #000000;
+                text-align: center;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                 border-radius:10px;
+                 clear:both;
+            }
+            .picture1{
+                float:center;
+                padding-top: 5px ;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                background-color:#FFDAB9;
+                text-align: center;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                 border-radius:10px;
+                 clear:both;
+            }
+            h1{
+                font-size: 20px;
+                background-color: #FFFFFF;
+                width:500px;
+                clear:both;
+            }
+            #scroll{
+                height:400px;
+                overflow:scroll;
+                clear:both;
+            }
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                padding-top: 200px; /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            }
+            .modal-content {
+                position: relative;
+                background-color: #fefefe;
+                margin: auto;
+                padding: 0;
+                border: 1px solid #888;
+                width: 40%;
+                box-shadow: 0 4px 8px 0 #696969,0 6px 20px 0 rgba(0,0,0,0.19);
+                
+            }
+
+        /* Add Animation */
+
+
+        /* The Close Button */
+            .close {
+                color: black;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .modal-header {
+                padding: 2px 16px;
+                background-color:#FFCC33;
+                color: #000000;
+                font-size : 26px;
+                text-align: center;
+                border: black;
+            }
+
+            .modal-body {
+                padding: 2px 16px;
+                background-color:#DCDCDC;
+                font-size : 16px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="block2">
+                        <a class="navbar-brand" ><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 
+                        Smartphone | <span>By The Stupid Person</span></a>
+                    </div>
+            </div> 
+            <br><br><br>
+            <div class="picture">
+                <table>
+                    <tr>
+                        <th><img src="img/icon.png" alt="..." class="img-round" width="350" height="100"></th>
+                        <th><img src="img/iphone_circle.jpg" alt="..." class="img-circle" width="100" height="100"> </th>
+                        <th><img src="img/s8_down.png" alt="..." class="img-circle" width="100" height="100"></th>
+                        <th><img src="img/vivoV5.png" alt="..." class="img-circle" width="100" height="100"></th>
+                        <th><img src="img/huawei.png" alt="..." class="img-circle" width="100" height="100"></th>
+                        <th><img src="img/oppo.png" alt="..." class="img-circle" width="100" height="100"></th>
+                    </tr>
+                </table>
+            </div> <br><br>
+            <div class="picture1">
+                <h1 align="center"> What is Smartphone ? </h1>
+                <p align="left" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    A smartphone is a mobile personal computer with an advanced mobile operating system with features useful for mobile <br>or handheld use. Smartphones, which are typically pocket-sized, have the ability to place and receive voice/video calls and create and receive text messages, have personal digital assistants. Smartphones can access the Internet through cellular or Wi-Fi and can run a variety of third-party software components. They typically have a color display with a graphical user interface that covers more than 76% of the front surface. <br>The display is almost always a touchscreen and sometimes additionally a touch-enabled keyboard like the Priv/Passport BlackBerrys,<br> which enables the user to use a virtual keyboard to type words and numbers and press onscreen icons to activate "app" features. <br><br></p></p>
+            </div> <br><br>
+            <div class="choose"> <h1> SELECT THE PHONE ...</h1></div>
+            <div class="select">
+                <table><tr>
+                            <td><div id="iphone7">
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="IPHONE 7 PLUS">
+                                <img src="img/iphone7.png" alt="..." class="img-round" width="150" height="100"> 
+                                    <h5 align = "bottom">Iphone 7</h5>
+                                </button>
+                            </div></td>
+                            <td><div id="s8">
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="SAMSUNG GALAXY S8 PLUS">
+                                <img src="img/samsungS8.png" alt="..." class="img-round" width="150" height="100">
+                                    <h5 align = "bottom">Samsung Galaxy S8 plus</h5>
+                                </button>
+                            </div></td>
+                            <td><div id="v5">
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="VIVO V5 PLUS">
+                                <img src="img/vivoV5.png" alt="..." class="img-round" width="150" height="100">
+                                    <h5 align = "bottom">Vivo V5 plus</h5>
+                                </button>
+                            </div></td>
+                            <td><div id="huawei">
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="HUAWEI P10 PLUS">
+                                <img src="img/huaweiP10.png" alt="..." class="img-round" width="150" height="100">
+                                    <h5 align = "bottom">Huawei P10 plus</h5>
+                                </button>
+                            </div></td>
+                            <td><div id="oppo">
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="OPPO R9s PLUS">
+                                <img src="img/oppoR9s.png" alt="..." class="img-round" width="150" height="100">
+                                    <h5 align = "bottom">Oppo R9s plus</h5>
+                                </button>
+                            </div></td></tr>
+                       
+                </table>
+
+                        <div id="myModal" class="modal">
+                          <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <span class="close">&times;</span>
+                                <div id = "abc"><h1></h1> </div>
+                            </div>
+                            <div class="modal-body">
+                                <br>
+                                <div id = "aaa"></div>
+                                <br>
+                                <br>
+                                <center><img id="cover" alt="cover image" class="img-round" width="250" height = "150"></center>
+                                <br>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+
+            <br><br>
+            <footer class="footer">
+                <div class="container">
+                    <p class="text-muted">Credit : TheStupidPerson Group#02</p>
+                </div>
+            </footer>
+            </div>
+                    <script>
+                        var x,xmlhttp,xmlDoc
+                        xmlhttp = new XMLHttpRequest();
+                        xmlhttp.open("GET", "res/smartphone.xml", false);
+                        xmlhttp.send();
+                        xmlDoc = xmlhttp.responseXML; 
+                        x = xmlDoc.getElementsByTagName("SMARTPHONE");
+                        var modal = document.getElementById('myModal');
+
+                        var ip7 = document.getElementById("iphone7");
+                        var s8  = document.getElementById("s8");
+                        var v5  = document.getElementById("v5");
+                        var h  = document.getElementById("huawei");
+                        var o  = document.getElementById("oppo");
+
+                        var span = document.getElementsByClassName("close")[0];
+
+
+                        ip7.onclick = function() {
+                            modal.style.display = "block";
+                              for (i = 0; i <x.length; i++) { 
+                            if(i==0){
+                                document.getElementById("abc").innerHTML = ""+
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("aaa").innerHTML =
+                                "<b>GENERATION : </b>" +
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue +
+                                "<br><b>COLOR : </b>" +
+                                x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue +
+                                "<br><b>COMPANY : </b>" + 
+                                x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+                                "<br><b>SIZE: </b>" +
+                                x[i].getElementsByTagName("SIZE")[0].childNodes[0].nodeValue +
+                                "<br><b>PRICE: </b>" + 
+                                x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue ;
+
+                                document.getElementById("cover").src = "img/iphone-7-colors.jpg";
+                            }
+                          }
+                        }
+
+                        s8.onclick = function() {
+                            modal.style.display = "block";
+                              for (i = 0; i <x.length; i++) { 
+                            if(i==1){
+                                document.getElementById("abc").innerHTML = ""+
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("aaa").innerHTML =
+                                "<b>GENERATION : </b>" +
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue +
+                                "<br><b>COLOR : </b>" +
+                                x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue +
+                                "<br><b>COMPANY : </b>" + 
+                                x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+                                "<br><b>SIZE: </b>" +
+                                x[i].getElementsByTagName("SIZE")[0].childNodes[0].nodeValue +
+                                "<br><b>PRICE: </b>" + 
+                                x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("cover").src = "img/s8-colors.png";
+                            }
+                          }
+                        }
+
+                        v5.onclick = function() {
+                            modal.style.display = "block";
+                              for (i = 0; i <x.length; i++) { 
+                            if(i==2){
+                                document.getElementById("abc").innerHTML = ""+
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("aaa").innerHTML =
+                                "<b>GENERATION : </b>" +
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue +
+                                "<br><b>COLOR : </b>" +
+                                x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue +
+                                "<br><b>COMPANY : </b>" + 
+                                x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+                                "<br><b>SIZE: </b>" +
+                                x[i].getElementsByTagName("SIZE")[0].childNodes[0].nodeValue +
+                                "<br><b>PRICE: </b>" + 
+                                x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("cover").src = "img/vivo-color.jpg";
+                            }
+                          }
+                        }
+
+                        h.onclick = function() {
+                            modal.style.display = "block";
+                              for (i = 0; i <x.length; i++) { 
+                            if(i==3){
+                                document.getElementById("abc").innerHTML = ""+
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("aaa").innerHTML =
+                                "<b>GENERATION : </b>" +
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue +
+                                "<br><b>COLOR : </b>" +
+                                x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue +
+                                "<br><b>COMPANY : </b>" + 
+                                x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+                                "<br><b>SIZE: </b>" +
+                                x[i].getElementsByTagName("SIZE")[0].childNodes[0].nodeValue +
+                                "<br><b>PRICE: </b>" + 
+                                x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("cover").src = "img/huawei-color.jpg";
+                            }
+                          }
+                        }
+
+                        o.onclick = function() {
+                            modal.style.display = "block";
+                              for (i = 0; i <x.length; i++) { 
+                            if(i==4){
+                                document.getElementById("abc").innerHTML = ""+
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("aaa").innerHTML =
+                                "<b>GENERATION : </b>" +
+                                x[i].getElementsByTagName("GENERATION")[0].childNodes[0].nodeValue +
+                                "<br><b>COLOR : </b>" +
+                                x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue +
+                                "<br><b>COMPANY : </b>" + 
+                                x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+                                "<br><b>SIZE: </b>" +
+                                x[i].getElementsByTagName("SIZE")[0].childNodes[0].nodeValue +
+                                "<br><b>PRICE: </b>" + 
+                                x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+
+                                document.getElementById("cover").src = "img/oppo-color.jpg";
+                            }
+                          }
+                        }
+
+
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }
+                    </script>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
